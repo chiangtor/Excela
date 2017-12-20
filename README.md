@@ -5,14 +5,15 @@ xlsx2csv
 
 ### Download the poi extension
 
------poi-----
 [Index of /dist/poi/release/bin](https://archive.apache.org/dist/poi/release/bin/)
 
 
 ```
 git clone 
+
 mkdir -p lib 
-wget   -P  lib https://archive.apache.org/dist/poi/release/bin/poi-bin-3.17-20170915.tar.gz lib
+
+wget   -P  lib https://archive.apache.org/dist/poi/release/bin/poi-bin-3.17-20170915.tar.gz 
 cd lib
 tar xzvf poi-bin-3.17-20170915.tar.gz & rm poi-bin-3.17-20170915.tar.gz
 ```
